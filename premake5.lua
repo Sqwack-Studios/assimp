@@ -93,6 +93,7 @@ project "assimp"
         }
         -- Exporters
         defines {
+            '_CRT_SECURE_NO_WARNINGS',
             'ASSIMP_BUILD_NO_COLLADA_EXPORTER',
             'ASSIMP_BUILD_NO_X_EXPORTER',
             'ASSIMP_BUILD_NO_STEP_EXPORTER',
