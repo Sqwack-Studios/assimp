@@ -1,5 +1,4 @@
 project "assimp"
-        location "assimp/"
         kind "StaticLib"
         language "C++"
         cppdialect "C++17"
